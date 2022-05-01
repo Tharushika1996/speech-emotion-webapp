@@ -154,7 +154,7 @@ def plot_polar(fig, predictions=TEST_PRED, categories=TEST_CAT,
 
 
 def main():
-    side_img = Image.open("images/emotion3.jpg")
+    side_img = Image.open("images/Anonymo.png")
     with st.sidebar:
         st.image(side_img, width=300)
     st.sidebar.subheader("Menu")
@@ -231,8 +231,8 @@ def main():
             #         st.write("Error while loading the file")
 
         if model_type == "mfccs":
-            em3 = st.sidebar.checkbox("3 emotions", True)
-            em6 = st.sidebar.checkbox("6 emotions", True)
+            #em3 = st.sidebar.checkbox("3 emotions", True)
+            #em6 = st.sidebar.checkbox("6 emotions", True)
             em7 = st.sidebar.checkbox("7 emotions")
             gender = st.sidebar.checkbox("gender")
 
