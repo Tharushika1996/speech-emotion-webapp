@@ -158,8 +158,7 @@ def main():
     with st.sidebar:
         st.image(side_img, width=300)
     st.sidebar.subheader("Menu")
-    website_menu = st.sidebar.selectbox("Menu", ("Emotion Recognition", "Project description", "Our team",
-                                                 "Leave feedback", "Relax"))
+    website_menu = st.sidebar.selectbox("Menu", ("Emotion Recognition"))
     st.set_option('deprecation.showfileUploaderEncoding', False)
 
     if website_menu == "Emotion Recognition":
@@ -231,8 +230,8 @@ def main():
             #         st.write("Error while loading the file")
 
         if model_type == "mfccs":
-            em3 = st.sidebar.checkbox("3 emotions", True)
-            em6 = st.sidebar.checkbox("6 emotions", True)
+           # em3 = st.sidebar.checkbox("3 emotions", True)
+           # em6 = st.sidebar.checkbox("6 emotions", True)
             em7 = st.sidebar.checkbox("7 emotions")
             gender = st.sidebar.checkbox("gender")
 
@@ -440,13 +439,14 @@ def main():
         st.balloons()
         col1, col2 = st.columns([3, 2])
         with col1:
-            st.info("maria.s.startseva@gmail.com")
-            st.info("talbaram3192@gmail.com")
-            st.info("asherholder123@gmail.com")
+            st.info("azfaazhar@gmail.com")
+            st.info("sewwandimawee@gmail.com")
+            st.info("vindigunathilake@gmail.com")
+            st.info("tharushikamaddumarachchi@gmail.com")
         with col2:
             liimg = Image.open("images/LI-Logo.png")
             st.image(liimg)
-            st.markdown(f""":speech_balloon: [Azfa Azhar](https://www.linkedin.com/in/azfa-azha)""",
+            st.markdown(f""":speech_balloon: [Azfa Azhar](https://www.linkedin.com/in/azfa-azhar)""",
                         unsafe_allow_html=True)
             st.markdown(f""":speech_balloon: [Sewwandi Maweekumbura](https://www.linkedin.com/in/sewwandi-mawee)""",
                         unsafe_allow_html=True)
