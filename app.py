@@ -158,7 +158,7 @@ def main():
     with st.sidebar:
         st.image(side_img, width=300)
     st.sidebar.subheader("Menu")
-    website_menu = st.sidebar.selectbox("Menu", ("Emotion Recognition"))
+    website_menu = st.sidebar.selectbox("Menu", ("Emotion Recognition","Project Description", "Our Team", "Leave feedback","Relax"))
     st.set_option('deprecation.showfileUploaderEncoding', False)
 
     if website_menu == "Emotion Recognition":
