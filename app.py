@@ -233,7 +233,7 @@ def main():
            # em3 = st.sidebar.checkbox("3 emotions", True)
            # em6 = st.sidebar.checkbox("6 emotions", True)
             em7 = st.sidebar.checkbox("7 emotions")
-            gender = st.sidebar.checkbox("gender")
+            #gender = st.sidebar.checkbox("gender")
 
         elif model_type == "mel-specs":
             st.sidebar.warning("This model is temporarily disabled")
